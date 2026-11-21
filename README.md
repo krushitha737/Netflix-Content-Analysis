@@ -1,141 +1,150 @@
 # 🎬 Netflix Content Analysis | Interactive Analytics Dashboard
 
-An end-to-end data analytics project that explores Netflix Movies and TV Shows to uncover insights into content distribution, genres, countries, ratings, directors, and release trends through Python, SQL, and an interactive Streamlit dashboard.
+An end-to-end Data Analytics project that explores the Netflix Movies and TV Shows dataset to uncover insights into content distribution, genres, countries, ratings, directors, and release trends using **Python, SQL, Streamlit, and Plotly**.
 
----
+## 🚀 Live Dashboard
+
+Explore the interactive Netflix Content Analysis Dashboard:
+
+👉 [**Click here to view the Live Dashboard**](https://netflix-content-analysis-sxj5xqqd6zrcgqxtta5wf6.streamlit.app/)
 
 ## 📌 Project Overview
 
-This project focuses on analyzing the Netflix Movies and TV Shows dataset to understand the platform's content catalogue and identify meaningful patterns through data analysis and visualization.
+This project focuses on analyzing the Netflix Movies and TV Shows dataset to understand its content catalogue through data cleaning, exploratory data analysis, SQL queries, and interactive visualizations.
 
-The project follows a complete data analytics workflow, including:
-
-- Data collection and exploration
-- Data cleaning and preprocessing
-- SQL-based data analysis
-- Exploratory Data Analysis (EDA)
-- Interactive dashboard development
-- Business insights generation
-
-The final output is an interactive dashboard that allows users to explore Netflix content through dynamic filters and visualizations.
+The project transforms raw Netflix data into meaningful insights through an interactive Streamlit dashboard.
 
 ## 🎯 Project Objectives
 
 - Analyze the distribution of Movies and TV Shows.
-- Identify countries contributing the highest number of titles.
-- Discover popular genres and directors.
-- Understand content ratings and their distribution.
-- Explore content release trends over the years.
-- Calculate average movie duration.
-- Generate meaningful insights through interactive visualizations.
+- Identify countries contributing the most content.
+- Explore popular genres and content categories.
+- Understand content release trends over the years.
+- Analyze content ratings and audience classifications.
+- Identify directors with the highest number of titles.
+- Build an interactive dashboard for data exploration.
 
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
 |---|---|
-| Python | Data analysis and preprocessing |
-| Pandas | Data manipulation and cleaning |
-| SQL Server | Database management and querying |
+| Python | Data analysis and processing |
+| Pandas | Data cleaning and manipulation |
+| SQL Server | Database management and SQL analysis |
 | Streamlit | Interactive dashboard development |
 | Plotly | Interactive data visualization |
+| Matplotlib | Static visualizations |
 | VS Code | Development environment |
+| Git & GitHub | Version control and project hosting |
 
 ## 📂 Dataset
 
 **Dataset:** Netflix Movies and TV Shows
 
-**Source:** [Netflix Movies and TV Shows – Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
+**Source:** Kaggle
 
-**Dataset Details:**
+[View Dataset on Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 - Total Records: 8,807
-- Total Features: 12
-- Includes information about movies and TV shows.
+- Total Columns: 12
+- Content Types: Movies and TV Shows
 
-The dataset contains information such as:
+The dataset contains information about titles, directors, cast, countries, release years, ratings, durations, and genres.
 
-- Show ID
-- Type
-- Title
-- Director
-- Cast
-- Country
-- Date Added
-- Release Year
-- Rating
-- Duration
-- Listed In (Genres)
-- Description
+## 🔄 Project Workflow
 
-## ⚙️ Project Workflow
-
-### 1. Data Collection
-
-- Imported the Netflix dataset in CSV format.
-- Examined the dataset structure and data types.
-
-### 2. Data Cleaning and Preprocessing
-
-- Identified missing values.
-- Handled missing values in relevant columns.
-- Checked and handled duplicate records.
-- Converted date fields into appropriate formats.
-- Prepared the cleaned dataset for analysis.
-
-### 3. SQL Analysis
-
-Used SQL Server to perform analytical queries, including:
-
-- Movies vs TV Shows distribution.
-- Top countries by number of titles.
-- Most popular genres.
-- Top directors.
-- Content distribution by release year.
-- Ratings distribution.
-
-### 4. Exploratory Data Analysis
-
-Used Python and Pandas to explore patterns and trends in the dataset.
-
-### 5. Dashboard Development
-
-Developed an interactive Streamlit dashboard with Plotly visualizations and dynamic filters.
+1. **Data Collection:** Imported the Netflix dataset from Kaggle.
+2. **Data Cleaning:** Handled missing values, checked duplicates, and transformed date columns.
+3. **Exploratory Data Analysis:** Examined content distribution, genres, countries, ratings, and release trends.
+4. **SQL Analysis:** Used SQL queries to extract meaningful insights.
+5. **Data Visualization:** Created charts to understand important patterns and trends.
+6. **Dashboard Development:** Built an interactive dashboard using Streamlit and Plotly.
+7. **Deployment:** Deployed the dashboard using Streamlit Community Cloud.
 
 ## 📊 Dashboard Features
 
-### Interactive Filters
+The dashboard provides interactive visualizations and analytical insights through three main sections.
 
-- Content Type
-- Release Year Range
-- Country
-- Genre
-
-### Key Performance Indicators (KPIs)
+### 1. Overview
 
 - Total Titles
 - Total Movies
 - Total TV Shows
 - Total Countries
 - Average Movie Duration
-
-### Visualizations
-
 - Movies vs TV Shows Distribution
 - Top 10 Countries by Content
-- Top 10 Genres
-- Movie vs TV Show Comparison Over the Years
+- Top 10 Popular Genres
+- Movie vs TV Show Trends
 - Top 10 Directors
-- Netflix Content Release Trends
-- Content Ratings Distribution
 
-### Automated Content Insights
+### 2. Content Trends
+
+- Release-year analysis
+- Year-wise content distribution
+- Interactive content trend visualization
+
+### 3. Ratings Analysis
+
+- Distribution of Netflix content ratings
+- Comparison of audience classifications
+- Identification of the most common content ratings
+
+### 🎛️ Interactive Filters
+
+The dashboard includes dynamic sidebar filters:
+
+- Content Type
+- Release Year Range
+- Country
+- Genre
+
+The relevant KPIs, charts, and insights update based on the selected filters.
+
+### 💡 Automated Content Insights
+
+The dashboard highlights:
 
 - Most Popular Genre
 - Leading Country
-- Most Common Content Rating
+- Most Common Rating
 - Average Movie Duration
 
-All dashboard metrics, insights, and visualizations respond to the selected filters.
+## 🖥️ Dashboard Preview
+
+### 1. Dashboard Overview
+
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### 2. Content Distribution – Movies vs TV Shows
+
+![Content Distribution](screenshots/content_distribution.png)
+
+### 3. Movies vs TV Shows Donut Chart
+
+![Donut Chart](screenshots/donut.png)
+
+### 4. Top 10 Countries by Content
+
+![Top Countries](screenshots/top_countries.png)
+
+### 5. Top 10 Netflix Genres
+
+![Top Genres](screenshots/top_genres.png)
+
+### 6. Movie and TV Show Trends
+
+![Content Trends](screenshots/content_trends.png)
+
+### 7. Release Trends
+
+![Release Trends](screenshots/release_trends.png)
+
+### 8. Top 10 Directors
+
+![Top Directors](screenshots/top_directors.png)
+
+👉 [**Explore the Live Interactive Dashboard**](https://netflix-content-analysis-sxj5xqqd6zrcgqxtta5wf6.streamlit.app/)
 
 ## 📁 Project Structure
 
@@ -146,6 +155,16 @@ Netfix_Content_Analysis/
 │   ├── netflix_titles.csv
 │   └── netflix_cleaned.csv
 │
+├── screenshots/
+│   ├── dashboard_overview.png
+│   ├── content_distribution.png
+│   ├── donut.png
+│   ├── release_trends.png
+│   ├── content_trends.png
+│   ├── top_countries.png
+│   ├── top_directors.png
+│   └── top_genres.png
+│
 ├── visualizations/
 │   ├── content_distribution.png
 │   ├── top_countries.png
@@ -154,82 +173,76 @@ Netfix_Content_Analysis/
 ├── app.py
 ├── netflix_analysis.py
 ├── netflix_analysis.sql
-└── README.md
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
-## 🚀 Installation and Execution
-
-### Prerequisites
-
-- Python 3.10 or later
-- SQL Server (for running the SQL analysis)
-- VS Code or another Python IDE
+## ⚙️ Installation and Execution
 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/krushitha737/Netflix-Content-Analysis.git
 ```
 
-### Step 2: Navigate to the Project Directory
+### Step 2: Navigate to the Project Folder
 
 ```bash
-cd Netfix_Content_Analysis
+cd Netflix-Content-Analysis
 ```
 
-### Step 3: Install Dependencies
+### Step 3: Install Required Libraries
 
 ```bash
-pip install pandas streamlit plotly
+pip install -r requirements.txt
 ```
 
-### Step 4: Run the Dashboard
+### Step 4: Run the Streamlit Dashboard
 
 ```bash
 python -m streamlit run app.py
 ```
 
-The dashboard will open in your browser.
+The dashboard will open in your default web browser.
 
-## 💡 Key Analytical Outcomes
+## 📈 Key Analytical Findings
 
-The analysis provides insights into:
+- The dataset contains 8,807 Netflix titles.
+- Movies represent a larger portion of the catalogue than TV Shows.
+- The United States contributes the highest number of titles.
+- International Movies, Dramas, and Comedies are among the most common genres.
+- TV-MA is the most frequently occurring content rating.
+- The dataset shows notable growth in content releases during the later years represented.
 
-- The balance between Movies and TV Shows.
-- Countries with the largest content contributions.
-- Popular genres across the catalogue.
-- Directors with the highest number of listed titles.
-- Distribution of content ratings.
-- Changes in title release counts across different years.
-- Average movie duration.
-
-## 📚 Skills Demonstrated
+## 🧠 Skills Demonstrated
 
 - Data Cleaning and Preprocessing
 - Exploratory Data Analysis (EDA)
-- Python Programming
-- Pandas Data Manipulation
-- SQL Querying
+- Data Manipulation using Pandas
+- SQL Querying and Data Analysis
 - Data Visualization
 - Interactive Dashboard Development
 - Analytical Thinking
 - Data Storytelling
+- Dashboard Deployment
 
 ## 🔮 Future Enhancements
 
-- Deploy the dashboard online using Streamlit Community Cloud.
-- Add more advanced analytical visualizations.
-- Introduce additional content insights.
-- Improve dashboard performance and user experience.
+- Add advanced genre-based analysis.
+- Include year-wise country comparisons.
+- Implement additional interactive visualizations.
+- Expand the dashboard with more analytical insights.
 
 ## 👩‍💻 Author
 
-**Krushitha**
-
+**Krushitha**  
 B.Tech – Computer Science and Engineering
 
-**Project:** Netflix Content Analysis
+- GitHub: [krushitha737](https://github.com/krushitha737)
+- Project Repository: [Netflix Content Analysis](https://github.com/krushitha737/Netflix-Content-Analysis)
+- Live Dashboard: [Streamlit App](https://netflix-content-analysis-sxj5xqqd6zrcgqxtta5wf6.streamlit.app/)
 
 ---
 
-⭐ If you find this project interesting, consider giving the repository a star!
+⭐ If you find this project useful, consider giving it a star!
